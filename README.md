@@ -45,52 +45,42 @@ RAM: 8 GB DDR3L Available
 FILES
 
 -------------------------------------
-:CoverPage_ID_8:
+:Final_Project_(Left).ipynb:
 
-This is the separated cover page
+This is the processing of politically left subreddit pages as well as the word representations 
 
-
--------------------------------------
-
--------------------------------------
-:preprocessing_ID_8.ipynb:
-
-This is the full preprocessing procedure we decided to run on the data. 
+of politically left subreddit pages.
 
 
 -------------------------------------
-:modeling_ID_8.ipynb:
 
-This is the full modeling procedure we decided to run on the data.
+-------------------------------------
+:Final_Project_(Right).ipynb:
+
+This is the processing of politically right subreddit pages as well as the word representations 
+
+of politically right subreddit pages.
 
 
 -------------------------------------
-:full_script_ID_8.py: 
+:compiled_excel.xlsx:
 
-This is the combination of preprocessing and modeling into one python script (if preferred to be run in a .py file).
+Outputting results into a single excel file. Also has visualizations of each vector representation. 
 
-There may be an issue with the current path, the path in the code needs to be changed before it successfully runs.
-
-On google colab's hardware, the script took 31.241 seconds to run.
+Will show 10 most similar words for each word of interest.
 
 
 -------------------------------------
-:Report_ID_8.pdf:
+:query-builder.py: 
 
-As the name states, this is the report created for this project.
+Connecting to MongoDB and acquiring the data from the database. Taking in user input for 
+
+looping through the different file paths.
 
 
 -------------------------------------
-:predictions_ID_8.csv:
+:text-processor.py:
 
-This is the model predictions that we came up with. 
-
-Dataframe of
-| ucfID | increase_amt | credit_line_amount | new_credit_line |
-
-increase_amt - our model's predicted increase amount
-credit_line_amount - the user's ORIGINAL credit line amount
-new_credit_line - the user's ADJUSTED credit line amount
-
+This is the text preprocessing techniques used on the textual data
 
 -------------------------------------
