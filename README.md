@@ -17,25 +17,15 @@ May 5th, 2021
 README
 -------------------------------------
 In this semester project, I will be using a Reddit database to analyze the language used
-
 in politically-focused subreddits. Specifically striving to compare and contrast the language
-
 used in politically right/left reddit community pages. Applying different methods of Natural
-
 Language Processing techniques that I learned starting from the beginning of the research,
-
 these techniques will assist in getting a better understanding of the words used and help
-
 us find any distinctions in the language for these two opposing political spectrums. From
-
 learning how to extract and query from the database, to learning about one of the most
-
 important steps in the NLP workflow–the text processing phase, and later on learning how to
-
 turn comments into numerically-represented vectors. Each of these newly acquired methods
-
 led to the opportunity to analyze and extract valuable information through our open-source
-
 social network database.
 
 ------------
