@@ -92,6 +92,6 @@ looping through the different file paths.
 -------------------------------------
 :text-processor.py:
 
-This is the text preprocessing techniques used on the textual data
+This is the text preprocessing techniques used on the textual data. (So much lambda functions!)
 
 -------------------------------------
